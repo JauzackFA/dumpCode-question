@@ -1,0 +1,242 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(187, 191, 202, 0.75);
+  box-shadow: 0px 100px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 0;
+}
+
+.game-board {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  color: #495464;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 2px solid #495464;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.card {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  max-width: 350px;
+  /* height: 500px; */
+  padding: 45px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s ease-out;
+  text-align: left;
+}
+
+.illustration {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 310px;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-content h2 {
+  margin-bottom: 10px;
+  color: #495464;
+  font-family: Inter, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card-content p {
+  /* margin-bottom: 20px;
+    color: #495464;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500; */
+  margin-bottom: 20px;
+  color: #495464;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* -webkit-line-clamp: 6; */
+  -webkit-box-orient: vertical;
+}
+
+.answer-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  margin: 0;
+}
+
+.answer-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: 2px solid #495464;
+  margin-right: 15px;
+}
+
+/* .answer-btn:hover {
+    background-color: #0056b3;
+} */
+
+.close-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.close-btn:hover {
+  background-color: #c82333;
+}
+
+.show {
+  display: block;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.hide {
+  display: block;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s ease-in;
+}
+
+.result-popup {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 480px;
+  max-width: 350px;
+  padding: 45px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.resultIcon {
+  /* display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 310px;
+    height: auto;
+    object-fit: cover;  */
+
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+.result-popup img {
+  width: 230px;
+  height: 230px;
+  margin-bottom: 20px;
+}
+
+.result-popup h2 {
+  color: #495464;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: start;
+  font-family: Inter, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.result-popup p {
+  text-align: start;
+  color: #495464;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  /* height: 100px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.result-popup .question-text {
+  text-align: start;
+  color: #495464;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  max-height: 100px; /* Menentukan batas tinggi maksimum */
+  overflow-y: auto; /* Memungkinkan scroll jika teks terlalu panjang */
+  display: -webkit-box;
+  -webkit-line-clamp: unset; /* Nonaktifkan pemotongan teks */
+  -webkit-box-orient: vertical;
+}
+
+.result-popup button {
+  /* padding: 10px 20px;
+    margin-top: 60px;
+    border: 2px solid #495464;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #495464;
+    cursor: pointer; */
+
+  border: none;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: 2px solid #495464;
+  margin-right: 18px;
+  margin-top: 60px;
+}
+
+.result-popup button:hover {
+  background-color: #218838;
+  color: #fff;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

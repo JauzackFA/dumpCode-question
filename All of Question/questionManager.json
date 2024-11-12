@@ -1,0 +1,138 @@
+[
+  {
+    "type": "question",
+    "question": "Decrease of Trade Payable",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": "Increase of Income Taxes Payable",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": "Increase of Dividend Payable",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": "Decrease of Unearned Subscription Revenue",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": "Decrease of Unearned Gift Card Revenue",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "type": "event",
+    "question": "Menghilangkan data keuangan perusahaan yang berakibat kerugian bagi perusahaan.",
+    "reward": {
+      "steps": -18,
+      "stun": 1
+    }
+  },
+  {
+    "type": "event",
+    "question": "Mendapatkan bonus atas keberhasilan menyelesaikan proyek keuangan perusahaan, dipromosikan sebagai senior associate 2.",
+    "reward": {
+      "steps": 5,
+      "stun": 0
+    }
+  },
+  {
+    "type": "question",
+    "question": "Increase of Communication Expense",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": "Decrease of Income Tax Expense",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": "Increase of Interest Revenue",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  }
+]

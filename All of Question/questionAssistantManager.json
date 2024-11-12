@@ -1,0 +1,131 @@
+[
+  {
+    "question": "Decrease of Raw Materials",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Direct Materials",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Prepaid Advertising",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Prepaid Expenses",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Decrease of Prepaid Salary",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Menipu atasan Anda dengan memberikan keterangan palsu dalam laporan keuangan sehingga mendapat hukuman mundur 34 langkah"
+  },
+  {
+    "question": "Decrease of Prepaid Rent",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Work in Process",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Finished Goods",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Decrease of Debt Investments",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  }
+]

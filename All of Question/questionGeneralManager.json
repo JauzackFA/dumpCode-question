@@ -1,0 +1,120 @@
+[
+  {
+    "question": "Anda mendapat double promote dari pimpinan, sehingga anda langsung naik menuju kotak 81"
+  },
+  {
+    "question": "Increase of Rent Expense",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Increase of Amortization Expense",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Increase of Interest Expenses",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Decrease of Service Revenue",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Rent Revenue",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Decrease of Promotion Expense",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Anda menyajikan informasi yang salah, sehingga anda dikenakan sanksi berupa mundur 16 langkah."
+  },
+  {
+    "question": "Decrease of Consulting Expense",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Increase of Bonds Payable",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  }
+]

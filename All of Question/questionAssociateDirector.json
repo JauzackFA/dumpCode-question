@@ -1,0 +1,156 @@
+[
+  {
+    "question": "Increase in Share Capital - Premium",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase in Gain on Sale of Fixed Asset",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Goodwill's Company",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Decrease in Sales Tax Payable",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Increase in Customer Deposits",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Decrease in Warranty Liability",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase in Unearned Warranty Revenue",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Decrease in Treasury Shares",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase in Loss on Sales of Fixed Assets",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Decrease in Prepaid Sales Tax",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Decrease of Trademark's Company",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "question": "Increase of Other Expense",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Other Revenue",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Anda mendapatkan bonus dari atasan, maju 16 langkah"
+  },
+  {
+    "question": "Decrease of Unearned Sales Revenue",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Ditemukan eror atas analisis data yang mengakibatkan kesalahan dalam mengambil keputusan, sehingga dikenakan sanksi mundur 18 langkah dan stun 1 putaran"
+  },
+  {
+    "question": "Decrease of Sales & Wages Payable",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Fences",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Decrease of Share Investments",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Decrease of Notes Payable",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Customer Subscription",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  }
+]

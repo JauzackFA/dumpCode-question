@@ -1,0 +1,120 @@
+[
+  {
+    "question": "Decrease of Unearned Passenger Ticket Revenue",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Increase of Unearned Rental Revenue",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Anda tertangkap basah menerima gratifikasi dari pelanggan, dikenakan sanksi mundur 19 langkah."
+  },
+  {
+    "question": "Decrease of Allowance of Doubtful Accounts",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Mortgage Payable",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 1,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -1,
+        "stun": 0
+      }
+    }
+  },
+  {
+    "question": "Increase of Dividend Revenue",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Decrease of Share Capital - Ordinary",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Anda mendapatkan bonus dari pimpinan, diberikan hadiah untuk maju 7 langkah. "
+  },
+  {
+    "question": "Increase of Dividend Receivable",
+    "correctAnswer": "debit",
+    "reward": {
+      "correct": {
+        "steps": 2,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": 0,
+        "stun": 1
+      }
+    }
+  },
+  {
+    "question": "Decrease of Share Capital - Premium",
+    "correctAnswer": "credit",
+    "reward": {
+      "correct": {
+        "steps": 3,
+        "stun": 0
+      },
+      "wrong": {
+        "steps": -2,
+        "stun": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Kartu Pertanyaan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-board">
+      <button id="showQuestionBtn">Tampilkan Pertanyaan</button>
+    </div>
+
+    <!-- <div class="timer-container">
+    <div id="timerBar" class="timer-bar"></div>
+    <div id="timer" style="font-size: 24px; color: #495464;">30</div>
+  </div> -->
+
+    <!-- Kartu Pertanyaan -->
+    <div id="questionCard" class="card">
+      <div class="card-content">
+        <img src="Assets/Yuppies - Coding.png" alt="Illustration" class="illustration" />
+        <h2>Question</h2>
+        <p></p>
+
+        <!-- Tombol Jawaban -->
+        <div class="answer-buttons">
+          <button id="creditBtn" class="answer-btn">Credit</button>
+          <button id="debitBtn" class="answer-btn">Debit</button>
+        </div>
+
+        <!-- <div class="result-content">
+      <img src="Assets/Yuppies - Coding.png" alt="Hasil" id="resultIcon">
+        <h2>Result</h2>
+        <p id="resultMessage"></p>
+        <button id="nextBtn">Next</button>
+      </div> -->
+      </div>
+    </div>
+
+    <!-- Popup Hasil Jawaban -->
+    <div id="resultPopup" class="result-popup hide">
+      <div class="result-content">
+        <img src="Assets/Yuppies - Coding.png" alt="Hasil" id="resultIcon" />
+        <h2>Result</h2>
+        <p id="resultMessage" class="question-text"></p>
+        <button id="nextBtn">Next</button>
+      </div>
+    </div>
+
+    <script src="questionCardController.js"></script>
+  </body>
+</html>
